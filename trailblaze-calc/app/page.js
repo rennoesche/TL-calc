@@ -312,8 +312,8 @@ export default function Home() {
           </div>
           </form>
           <div className="mt-12">
-            <h2>Result.</h2>
-            <p>
+            <h2 className="text-gray-900">Result.</h2>
+            <p className="text-gray-900">
             Current trailblaze level: {currentlevel}<br/>
             Current EXP: {exp}<br/>
             Daily trailblaze power used: {tp}<br/>
