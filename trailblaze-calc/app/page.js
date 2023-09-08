@@ -129,7 +129,7 @@ export default function Home() {
                 <legend className='text-md text-center font-semibold leading-6 text-gray-900'>Level-EXP</legend>
                 <div className="space-y-6 border-t border-gray-200">
                   <div className="relative block gap-x-3 col-span-full mt-4">
-                    <label htmlFor="fuelused" className='block text-sm font-medium leading-6 text-gray-900'>
+                    <label htmlFor="currentlevel" className='block text-sm font-medium leading-6 text-gray-900'>
                       Current Level
                     </label>
                     <div className="mt-2">
@@ -149,7 +149,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="relative block gap-x-3 col-span-full mt-2">
-                    <label htmlFor="fuelused" className='block text-sm font-medium leading-6 text-gray-900'>
+                    <label htmlFor="goallevel" className='block text-sm font-medium leading-6 text-gray-900'>
                       Goal Level
                     </label>
                     <div className="mt-2">
@@ -170,7 +170,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="relative block gap-x-3 col-span-full mt-2">
-                    <label htmlFor="fuelused" className='block text-sm font-medium leading-6 text-gray-900'>
+                    <label htmlFor="exp" className='block text-sm font-medium leading-6 text-gray-900'>
                       Current EXP
                     </label>
                     <div className="mt-2">
@@ -203,14 +203,14 @@ export default function Home() {
                       />
                     </div>
                     <div className="text-sm leading-6">
-                      <label htmlFor="tprefill" className="font-medium text-gray-900">
+                      <label htmlFor="dailyTraining" className="font-medium text-gray-900">
                         Daily training
                       </label>
                       <p className="text-gray-500">Completed 5 daily trainings</p>
                     </div>
                   </div>
                   <div className="relative block gap-x-3 col-span-full mt-2">
-                    <label htmlFor="fuelused" className='block text-sm font-medium leading-6 text-gray-900'>
+                    <label htmlFor="tp" className='block text-sm font-medium leading-6 text-gray-900'>
                       Daily trailblaze power used
                     </label>
                     <div className="mt-2">
@@ -236,7 +236,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="text-sm leading-6">
-                      <label htmlFor="tprefill" className="font-medium text-gray-900">
+                      <label htmlFor="weeklyImmersifier" className="font-medium text-gray-900">
                         Immersifier
                       </label>
                       <p className="text-gray-500">Weekly immersifier in simulated universe.</p>
